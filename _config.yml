@@ -81,7 +81,7 @@ backup:
     theme: hexadillax,landscape
     repository:
       github: git@github.com:daozidami/daozidami-hexo-backup.git
-      gitcafe: git@gitcafe.com:daozidami/daozidami-hexo-backup.git
+      gitcafe: https://gitcafe.com/daozidami/daozidami-hexo-backup.git
 
 # Others
 index_generator:
