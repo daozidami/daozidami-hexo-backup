@@ -71,14 +71,17 @@ stylus:
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:daozidami/daozidami.github.io.git
+  repo: 
+    github: git@github.com:daozidami/daozidami.github.io.git
+    gitcafe: https://gitcafe.com/daozidami/daozidami.git
 
 # Backup
 backup:
     type: git
     theme: hexadillax,landscape
     repository:
-       github: git@github.com:daozidami/daozidami-hexo-backup.git
+      github: git@github.com:daozidami/daozidami-hexo-backup.git
+      gitcafe: git@gitcafe.com:daozidami/daozidami-hexo-backup.git
 
 # Others
 index_generator:
